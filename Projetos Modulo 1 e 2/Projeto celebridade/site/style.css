@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    margin-right: 2px;
+    
+    background-image: linear-gradient(rgb(129, 124, 124), white, transparent, rgb(141, 139, 139));
+    height: 100%;
+    line-height: 20px;
+}
+
+header {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    margin-top: 16px;
+}
+
+.img_footer {
+    margin-left: 3.1%;
+    border: 2px solid black;
+}
+
+.conteudo { 
+    width: 248px;
+    margin-right: 13px;
+    float: left;
+    background: rgb(212, 211, 211);
+}
+
+.conteudo img {
+    margin-top: 30px;
+    width: 220px;
+    height: 150px;
+}
+
+.fotos {
+    width: 240px;
+    margin-left: 13px;
+    float: right;
+    background: rgb(212, 211, 211);
+}
+
+.fotos img {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 120px;
+    height: 200px;
+}
+
+.conteudo h2 {
+    text-align: center;
+}
+
+ol {
+    margin-top: 16px;
+}
+
+ol li {
+    font-size: 15px;
+}
+
+.foto_1 {
+    width: 250px;
+    margin-left: 21%;
+} 
+
+.listas_ordenadas {
+    border: 1px solid red;
+    margin-left: 10px;
+}
+
+section p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-indent: 60px;
+    text-align: justify;
+    line-height: 22px;
+    color: #333;
+}
+
+
+h4 {
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+
+.galeria_fotos h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+img {
+    width: 300px;
+    height: 160px;
+    margin-left: 15px;
+    margin-bottom: 16px;
+    border: 2px solid black; 
+}
+

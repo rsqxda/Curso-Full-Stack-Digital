@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="api/" method="post">  
+        <h1>Formulário</h1>
+            <fieldset>          
+            <legend>Entre em contato:</legend>
+               
+            <div> 
+            <h2 class="">Assunto:</h2> 
+                <select class="select">
+                    <option>ESCOLHA UMA OPCAO</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="reclamação">Reclamação</option>
+                </select>
+            </div>        
+
+            <div>
+                <label for="nome">Nome:</label>
+                    <input class="input_texto" type="text" name="nome" required placeholder=" Escreva seu nome">
+            </div>
+
+            <div>            
+                <label for="email">E-mail:</label>
+                    <input class="input_texto" type="email" name="nome" placeholder=" Ex: maria@gmail.com">
+            </div>
+
+            <div>
+               <label for="mensagem">Mensagem:</label>
+                    <textarea rows="6" cols="51" placeholder=" Escreva uma mensagem"></textarea>
+            </div>
+
+            <div class="input_checkbox">  
+                <input type="checkbox" name="checkbox">
+                    <label class="#">Aceita Receber por e-mail</label>
+            </div>
+
+            <div class="termo_uso">       
+                <p class="pergunta">Aceita os termos de uso?</p>
+                <input class="input_radio" type="radio" name="sim" value="sim">
+                <label class="#" for="sim">Sim</label>
+            </div>
+
+            <div class="termo_uso">                
+                <input class="input_termo" type="radio" name="sim" value="nao">
+                <label class="" for="nao">Não</label> 
+                <input class="button" type="button" onclick="alert('Enviado com Sucesso!')" name="submit" value="Enviar" /> 
+            </div>
+            </fieldset>          
+    </form>        
+</body>
+</html>
